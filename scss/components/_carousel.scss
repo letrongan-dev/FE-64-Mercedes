@@ -1,0 +1,36 @@
+#carousel {
+  .carousel-inner {
+    .carousel-item {
+      height: 700px;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      padding-top: 100px;
+      padding-left: 50px;
+      .text-carousel {
+        h1 {
+          font-family: "Playfair Display", serif;
+          font-size: 50px;
+        }
+        .btn-dark {
+          background: #333;
+          border: 1px solid #333;
+          border-radius: 0;
+          color: white;
+          padding: 0.5rem 1.5rem;
+          margin-top: 25px;
+        }
+        .btn-dark:hover {
+          background-color: black;
+        }
+      }
+    }
+    img {
+      position: absolute;
+      z-index: 1;
+      bottom: 0;
+      left: 50%;
+    }
+  }
+}

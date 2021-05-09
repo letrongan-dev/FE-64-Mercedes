@@ -1,0 +1,197 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 0;
+  margin: 0 0;
+  scroll-behavior: smooth;
+}
+
+.bg-color-black {
+  background-color: black;
+}
+
+header .heading span:hover {
+  cursor: pointer;
+  color: #00adef;
+}
+
+header .heading i {
+  border: 1px solid;
+  padding: 3px 7px;
+  font-size: 12px;
+}
+
+header ul li {
+  padding: 0 0.5rem;
+}
+
+header ul .nav-link {
+  color: white !important;
+}
+
+header ul .nav-link:hover {
+  color: #00adef !important;
+}
+
+header .navbar__container--sticky {
+  background-color: black;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+}
+
+header .isScrolling {
+  transform: translateY(0);
+  -webkit-transform: translateY(0);
+  -moz-transform: translateY(0);
+  -ms-transform: translateY(0);
+  -o-transform: translateY(0);
+}
+
+#carousel .carousel-inner .carousel-item {
+  height: 700px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-top: 100px;
+  padding-left: 50px;
+}
+
+#carousel .carousel-inner .carousel-item .text-carousel h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+}
+
+#carousel .carousel-inner .carousel-item .text-carousel .btn-dark {
+  background: #333;
+  border: 1px solid #333;
+  border-radius: 0;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  margin-top: 25px;
+}
+
+#carousel .carousel-inner .carousel-item .text-carousel .btn-dark:hover {
+  background-color: black;
+}
+
+#carousel .carousel-inner img {
+  position: absolute;
+  z-index: 1;
+  bottom: 0;
+  left: 50%;
+}
+
+#search {
+  background-color: #333;
+}
+
+#search .container {
+  padding: 2rem 0;
+}
+
+#search form {
+  margin: 0;
+}
+
+#search form input {
+  background-color: #ececec;
+  border: 1px solid #ececec;
+  color: #333;
+  font-size: 1.285rem;
+  height: 2.85rem;
+  line-height: 1.715rem;
+  padding: 0.355rem 1rem 0.215rem 1rem;
+  vertical-align: baseline;
+  width: 90%;
+}
+
+#search form button {
+  background: #ececec;
+  border: 1px solid #ececec;
+  color: #333;
+  font-size: 1.285rem;
+  height: 2.85rem;
+  line-height: 2.855rem;
+  margin-left: -5px;
+  padding: 0.5px 1.43rem 1px 1.43rem;
+  width: 4.425rem;
+}
+
+#welcome {
+  padding-top: 6rem;
+}
+
+#welcome .container {
+  padding: 5rem 0;
+}
+
+#welcome .container .col-md-9 {
+  font-size: 15px;
+}
+
+#welcome .container .col-md-9 h2 {
+  font-family: "Playfair Display", serif;
+}
+
+#welcome .container .col-md-9 p {
+  padding: 2rem 0;
+}
+
+#welcome .container .col-md-9 .btn-custom {
+  background-color: #00adef;
+  border: 1px solid none;
+  color: white;
+}
+
+#welcome .container .col-md-9 .btn-custom:hover {
+  opacity: 0.8;
+}
+
+#welcome .container .col-md-9 a {
+  color: #00adef;
+  text-decoration: none;
+}
+
+#welcome .container .col-md-9 a:hover {
+  text-decoration: underline;
+}
+
+#category {
+  padding-bottom: 10rem;
+}
+
+#category .container .row .item-category {
+  position: relative;
+}
+
+#category .container .row .item-category img {
+  width: 100%;
+}
+
+#category .container .row a::after {
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  -webkit-transition: height 0.16s, opacity 0.16s;
+  transition: height 0.16s, opacity 0.16s;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+#category .container .row .item-category:hover a::after {
+  height: 7px;
+  opacity: 1;
+  background-color: #00adef;
+}
+/*# sourceMappingURL=style.css.map */

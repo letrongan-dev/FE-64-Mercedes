@@ -1,0 +1,44 @@
+.bg-color-black {
+  background-color: black;
+}
+header {
+  .heading {
+    span:hover {
+      cursor: pointer;
+      color: $color;
+    }
+    i {
+      border: 1px solid;
+      padding: 3px 7px;
+      font-size: 12px;
+    }
+  }
+
+  ul {
+    li {
+      padding: 0 0.5rem;
+    }
+    .nav-link {
+      color: white !important;
+    }
+    .nav-link:hover {
+      color: $color !important;
+    }
+  }
+  .navbar__container--sticky {
+    background-color: black;
+    transition: all 0.5s;
+    transform: translateY(-100%);
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+  }
+  .isScrolling {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}

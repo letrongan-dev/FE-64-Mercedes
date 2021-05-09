@@ -1,0 +1,31 @@
+#search {
+  background-color: #333;
+  .container {
+    padding: 2rem 0;
+  }
+  form {
+    margin: 0;
+    input {
+      background-color: #ececec;
+      border: 1px solid #ececec;
+      color: #333;
+      font-size: 1.285rem;
+      height: 2.85rem;
+      line-height: 1.715rem;
+      padding: 0.355rem 1rem 0.215rem 1rem;
+      vertical-align: baseline;
+      width: 90%;
+    }
+    button {
+      background: #ececec;
+      border: 1px solid #ececec;
+      color: #333;
+      font-size: 1.285rem;
+      height: 2.85rem;
+      line-height: 2.855rem;
+      margin-left: -5px;
+      padding: 0.5px 1.43rem 1px 1.43rem;
+      width: 4.425rem;
+    }
+  }
+}

@@ -1,0 +1,32 @@
+#category {
+  padding-bottom: 10rem;
+  .container {
+    .row {
+      .item-category {
+        position: relative;
+        img {
+          width: 100%;
+        }
+      }
+      a::after {
+        bottom: 0;
+        content: "";
+        display: block;
+        height: 0;
+        left: 0;
+        opacity: 0;
+        position: absolute;
+        right: 0;
+        -webkit-transition: height 0.16s, opacity 0.16s;
+        transition: height 0.16s, opacity 0.16s;
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+      .item-category:hover a::after {
+        height: 7px;
+        opacity: 1;
+        background-color: $color;
+      }
+    }
+  }
+}
