@@ -3,6 +3,7 @@
   margin-top: -100px;
   ul {
     justify-content: center;
+    padding-bottom: 2rem;
     &::after {
       display: none;
     }
@@ -15,19 +16,19 @@
           padding-right: 12px;
         }
         &:hover {
-          color: #0052c9;
+          color: $color;
           border: none;
         }
       }
       a.active {
         background: none;
         border: none;
-        color: #0052c9;
+        color: $color;
         &::after {
           content: "";
           display: block;
           height: 1px;
-          background-color: #0052c9;
+          background-color: $color;
           margin-top: 8px;
         }
       }
