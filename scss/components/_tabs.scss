@@ -1,0 +1,96 @@
+#tabs {
+  background-color: black;
+  margin-top: -100px;
+  ul {
+    justify-content: center;
+    &::after {
+      display: none;
+    }
+    li {
+      a {
+        color: white;
+        transition: 0.5s;
+        font-size: 14px;
+        i {
+          padding-right: 12px;
+        }
+        &:hover {
+          color: #0052c9;
+          border: none;
+        }
+      }
+      a.active {
+        background: none;
+        border: none;
+        color: #0052c9;
+        &::after {
+          content: "";
+          display: block;
+          height: 1px;
+          background-color: #0052c9;
+          margin-top: 8px;
+        }
+      }
+    }
+  }
+
+  .tab-content {
+    .gallerry {
+      .gallerry--content {
+        #show,
+        #hide {
+          .row {
+            margin: 0;
+          }
+          .large-item,
+          .small-item {
+            padding: 0;
+
+            .gallerry--item {
+              position: relative;
+              &:hover .gallerry--text {
+                transform: translateY(0rem);
+                background-color: rgba(0, 0, 0, 0.8);
+              }
+              .gallerry--text {
+                position: absolute;
+                bottom: 0;
+                color: white;
+                background-color: rgba(0, 0, 0, 0.25);
+                width: 100%;
+                height: 140px;
+                transition: 0.8s;
+                transform: translateY(6rem);
+                font-size: revert;
+                padding: 12px;
+                font-family: serif;
+              }
+            }
+          }
+          .large-item {
+            img {
+              width: 100%;
+              height: 570px;
+            }
+          }
+          .small-item {
+            img {
+              width: 100%;
+              height: 285px;
+            }
+          }
+        }
+        #btnSeeMore {
+          text-align: center;
+          position: relative;
+          background: black;
+          padding-top: 30px;
+          span {
+            font-size: 15px;
+            margin: 3px;
+          }
+        }
+      }
+    }
+  }
+}

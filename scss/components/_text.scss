@@ -1,0 +1,17 @@
+#text {
+  background-color: black;
+  position: relative;
+  color: white;
+  padding: 100px 20px 0px 20px;
+
+  font-size: 14px;
+  .icon-with-text {
+    justify-content: space-between;
+  }
+
+  .list-text {
+    sup {
+      font-size: 100%;
+    }
+  }
+}
