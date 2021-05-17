@@ -86,6 +86,13 @@
           position: relative;
           background: black;
           padding-top: 30px;
+          height: 90px;
+          .btn{
+            opacity: 0.5;
+            &:hover{
+              opacity: 1;
+            }
+          }
           span {
             font-size: 15px;
             margin: 3px;

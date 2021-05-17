@@ -333,6 +333,15 @@ header .isScrolling {
   position: relative;
   background: black;
   padding-top: 30px;
+  height: 90px;
+}
+
+#tabs .tab-content .gallerry .gallerry--content #btnSeeMore .btn {
+  opacity: 0.5;
+}
+
+#tabs .tab-content .gallerry .gallerry--content #btnSeeMore .btn:hover {
+  opacity: 1;
 }
 
 #tabs .tab-content .gallerry .gallerry--content #btnSeeMore span {
@@ -344,7 +353,7 @@ header .isScrolling {
   background-color: black;
   position: relative;
   color: white;
-  padding: 100px 20px 0px 20px;
+  padding: 30px 20px 0px 20px;
   font-size: 14px;
 }
 
