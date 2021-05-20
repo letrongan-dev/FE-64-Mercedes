@@ -52,6 +52,10 @@
               &:hover .gallerry--text {
                 transform: translateY(0rem);
                 background-color: rgba(0, 0, 0, 0.8);
+                //responsive
+                @media screen and (max-width:600px) {
+                  transform: none;
+                }
               }
               .gallerry--text {
                 position: absolute;
@@ -65,7 +69,13 @@
                 font-size: revert;
                 padding: 12px;
                 font-family: serif;
+              //responsive
+                @media screen and (max-width:600px) {
+                  transform: none;
+                  background-color: rgba(0, 0, 0, 0.8);
+                }
               }
+
             }
           }
           .large-item {

@@ -17,9 +17,11 @@ footer {
       color: white;
       font-family: serif;
       font-size: 40px;
+
       h4 {
-        font-size: 30px;
+        font-size: 28px;
       }
+      
     }
 
     .footer__top--list {
@@ -63,6 +65,14 @@ footer {
     .footer__bottom--brand {
       img {
         width: 50%;
+        //responsive
+        @media screen and (max-width:600px) {
+          margin-top: 30px;
+        }
+      }
+      //responsive
+      @media screen and (max-width:600px) {
+        text-align: center;
       }
     }
   }
@@ -98,18 +108,29 @@ footer {
         color: $color;
         border-right: 2px solid $color;
         padding-right: 21px;
-        
+        &:hover{
+          cursor: pointer;
+        }
+      }
+      //responsive
+      @media screen and (max-width:600px) {
+        justify-content: center;
       }
     }
 
     .footer__end__right{
-      li{
+      span{
         margin-right: 16px;
         a{
           color: $colorFooterEnd;
           text-decoration: none;
           &:hover{
             color: $color;
+          }
+          //responsive
+          @media screen and (max-width:600px) {
+            font-size: 15px;
+            justify-content: space-between;
           }
         }
       }
