@@ -7,6 +7,12 @@
   font-size: 14px;
   .icon-with-text {
     justify-content: space-between;
+    //responsive
+    @media screen and (max-width:600px) {
+      p{
+        width: 100%;
+      }
+    }
   }
 
   .list-text {

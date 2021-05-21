@@ -7,6 +7,10 @@
         img {
           width: 100%;
         }
+        @media screen and (max-width:600px) {
+          width: 50%;
+          margin-top: 10px;
+        }
       }
       a::after {
         bottom: 0;
@@ -21,6 +25,7 @@
         transition: height 0.16s, opacity 0.16s;
         margin-left: 15px;
         margin-right: 15px;
+
       }
       .item-category:hover a::after {
         height: 7px;

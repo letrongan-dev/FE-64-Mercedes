@@ -12,6 +12,12 @@ header {
       padding: 3px 7px;
       font-size: 12px;
     }
+		//responsive
+		@media screen and (max-width:600px) {
+			.heading__content{
+        display: none;
+      }
+		}
   }
   ul {
     li {

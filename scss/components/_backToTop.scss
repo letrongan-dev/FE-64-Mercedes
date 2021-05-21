@@ -1,0 +1,16 @@
+
+.backToTop{
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    a{
+        opacity: 0;
+    }
+    .cd-top--is-visible{
+        visibility: visible;
+        opacity: 1;
+    }
+    .cd-top--fade-out {
+        opacity: 0.5;
+    }
+}
